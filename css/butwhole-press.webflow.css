@@ -1082,6 +1082,13 @@
   margin-bottom: 33px;
 }
 
+.section-5 {
+  -webkit-transform: translate3d(0px, 0px, 300px);
+  transform: translate3d(0px, 0px, 300px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
 @media screen and (max-width: 991px) {
   .image-7 {
     max-width: none;
