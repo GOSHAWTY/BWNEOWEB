@@ -267,8 +267,7 @@
 }
 
 .navbar {
-  position: -webkit-sticky;
-  position: sticky;
+  position: static;
   top: 0px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -531,6 +530,8 @@
 }
 
 .justtext {
+  width: 25vw;
+  height: 80vh;
   padding: 26px;
   font-family: 'Zen Dots', sans-serif;
   color: #fff;
@@ -860,6 +861,7 @@
 .section-bcg {
   position: static;
   top: 0px;
+  display: none;
   width: 100px;
   -webkit-transform: translate3d(0px, 0px, -300px);
   transform: translate3d(0px, 0px, -300px);
@@ -1357,6 +1359,13 @@
     margin-top: 20px;
   }
 
+  .justtext {
+    width: 90vw;
+    height: 90vh;
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+
   .div-block-69 {
     width: 90vw;
     margin-top: 22px;
@@ -1425,6 +1434,12 @@
     width: 90vw;
     padding-right: 29px;
     padding-left: 0px;
+  }
+
+  .section-5 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
   }
 }
 
