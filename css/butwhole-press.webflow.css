@@ -431,8 +431,9 @@
 }
 
 .div-block-4 {
-  width: 1000px;
-  height: 900px;
+  width: 90vw;
+  height: 75vh;
+  margin-left: 33px;
   border-style: solid;
   border-width: 2px;
   border-color: #fff;
@@ -442,15 +443,17 @@
 
 .div-block-5 {
   overflow: scroll;
-  width: 40vw;
+  width: 60vw;
   height: 90vh;
-  margin-right: 15px;
-  margin-left: 7px;
+  margin-right: 0px;
+  margin-left: 0px;
   border-style: solid;
   border-width: 2px;
   border-color: #fff;
   border-radius: 20px;
   background-color: hsla(0, 0%, 100%, 0);
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 .container-11 {
@@ -530,11 +533,11 @@
 }
 
 .justtext {
-  width: 25vw;
-  height: 80vh;
+  width: auto;
   padding: 26px;
   font-family: 'Zen Dots', sans-serif;
   color: #fff;
+  line-height: 25px;
 }
 
 .text-span-3 {
@@ -581,10 +584,10 @@
   display: -ms-flexbox;
   display: flex;
   overflow: scroll;
-  width: 900px;
-  height: 900px;
-  margin-right: 15px;
-  margin-left: 7px;
+  width: 90vw;
+  height: 100vh;
+  margin-right: 0px;
+  margin-left: 33px;
   padding: 14px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -604,10 +607,10 @@
 
 .div-block-69-web {
   overflow: scroll;
-  width: 600px;
-  height: 900px;
-  margin-right: 15px;
-  margin-left: 7px;
+  width: 90vw;
+  height: 100vh;
+  margin-right: 0px;
+  margin-left: 33px;
   padding: 20px;
   border-style: solid;
   border-width: 2px;
@@ -621,10 +624,10 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  width: 40vw;
-  height: 550px;
-  margin-right: 15px;
-  margin-left: 7px;
+  width: 55vw;
+  height: 90vh;
+  margin-right: 0px;
+  margin-left: 0px;
   border-style: solid;
   border-width: 2px;
   border-color: #fff;
@@ -681,10 +684,10 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  width: 40vw;
+  width: 55vw;
   height: 75vh;
-  margin-right: 15px;
-  margin-left: 7px;
+  margin-right: 0px;
+  margin-left: 0px;
   border-style: solid;
   border-width: 2px;
   border-color: #fff;
@@ -694,10 +697,10 @@
 
 .div-block-69-gallery {
   overflow: scroll;
-  width: 600px;
-  height: 900px;
-  margin-right: 15px;
-  margin-left: 7px;
+  width: 90vw;
+  height: 100vh;
+  margin-right: 0px;
+  margin-left: 33px;
   padding: 17px;
   border-style: solid;
   border-width: 2px;
@@ -758,8 +761,8 @@
   overflow: scroll;
   width: 90vw;
   height: 100vh;
-  margin-right: 15px;
-  margin-left: 7px;
+  margin-right: 0px;
+  margin-left: 33px;
   padding: 24px;
   border-style: solid;
   border-width: 2px;
@@ -808,10 +811,10 @@
 }
 
 .div-block-5-fonts {
-  width: 40vw;
+  width: 55vw;
   height: 75vh;
-  margin-right: 15px;
-  margin-left: 7px;
+  margin-right: 0px;
+  margin-left: 0px;
   padding: 0px 21px 21px;
   border-style: solid;
   border-width: 2px;
@@ -912,7 +915,7 @@
 .color {
   height: auto;
   margin-bottom: 7px;
-  padding: 12px;
+  padding: 12px 0px;
   border-style: dashed;
   border-width: 2px;
   border-color: #fff;
@@ -983,10 +986,10 @@
 
 .div-block-7-riso {
   overflow: scroll;
-  width: 40vw;
-  height: 900px;
-  margin-right: 15px;
-  margin-left: 7px;
+  width: 55vw;
+  height: 100vh;
+  margin-right: 0px;
+  margin-left: 0px;
   padding: 9px;
   border-style: solid;
   border-width: 2px;
@@ -1112,6 +1115,10 @@
 
 .image-17 {
   border-radius: 20px;
+}
+
+.text-span-18 {
+  font-size: 30px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1312,14 +1319,22 @@
   .div-block-4 {
     overflow: hidden;
     width: 90vw;
-    height: 100vh;
+    height: 90vh;
+    max-height: none;
+    max-width: none;
+    min-height: auto;
+    min-width: auto;
     margin-top: 33px;
+    margin-left: 0px;
   }
 
   .div-block-5 {
     width: 90vw;
-    max-height: 100vh;
-    max-width: 100vw;
+    height: 100vh;
+    max-height: none;
+    max-width: none;
+    min-height: auto;
+    min-width: auto;
     margin-right: 0px;
     margin-left: 0px;
   }
@@ -1362,8 +1377,9 @@
   .justtext {
     width: 90vw;
     height: 90vh;
-    max-height: 100vh;
-    max-width: 100vw;
+    max-height: none;
+    max-width: none;
+    margin-bottom: 0px;
   }
 
   .div-block-69 {
@@ -1418,10 +1434,14 @@
 
   .div-block-5-fonts {
     width: 90vw;
-    height: 120vh;
+    height: 90vh;
     margin-right: 0px;
-    margin-bottom: 132px;
+    margin-bottom: 33px;
     margin-left: 0px;
+  }
+
+  .color-group {
+    margin-top: -310px;
   }
 
   .div-block-7-riso {
@@ -1437,8 +1457,7 @@
   }
 
   .section-5 {
-    position: -webkit-sticky;
-    position: sticky;
+    position: static;
     top: 0px;
   }
 }
